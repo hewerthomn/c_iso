@@ -6,7 +6,7 @@ from setuptools import Extension, setup
 
 DEFINE_MACROS = [
     ("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION"),
-    # 0x030B0000
+    #0x030B0000
     ("Py_LIMITED_API", "0x030B0000"),
     ("CYTHON_LIMITED_API", None)
 ]
